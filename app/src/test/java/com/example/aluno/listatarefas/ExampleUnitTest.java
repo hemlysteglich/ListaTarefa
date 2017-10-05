@@ -1,4 +1,4 @@
-package com.example.aluno.applogin;
+package com.example.aluno.listatarefas;
 
 import org.junit.Test;
 

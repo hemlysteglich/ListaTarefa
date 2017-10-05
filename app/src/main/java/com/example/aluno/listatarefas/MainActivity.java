@@ -1,4 +1,4 @@
-package com.example.aluno.applogin;
+package com.example.aluno.listatarefas;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -21,12 +21,14 @@ public class MainActivity extends AppCompatActivity {
         senha = (EditText) findViewById(R.id.edtSenha);
         botao = (Button) findViewById(R.id.btnEntrar);
 
+        logar(botao);
+
     }
 
-    void logar(View v){
+    public void logar(View v){
         if (usuario.getText().toString().equals("admin") && senha.getText().toString().equals("1234567")){
             Toast.makeText(this,"Senha correta", Toast.LENGTH_SHORT).show();
-        }else{
+        } else {
             Toast.makeText(this,"Senha errada", Toast.LENGTH_SHORT).show();
         }
     }
