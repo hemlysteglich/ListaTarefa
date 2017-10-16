@@ -3,4 +3,5 @@
     <string name="label_name">Nome</string>
     <string name="label_password">Senha</string>
     <string name="btn_enter">Entrar</string>
+    <string name="title_activity_category">CategoryActivity</string>
 </resources>
