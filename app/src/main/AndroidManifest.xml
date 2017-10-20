@@ -19,7 +19,12 @@
         <activity
             android:name=".CategoryActivity"
             android:label="@string/title_activity_category"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tasks.TaskActivity"
+            android:label="@string/title_activity_task"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Tasks.NewTaskActivity"></activity>
     </application>
 
 </manifest>
