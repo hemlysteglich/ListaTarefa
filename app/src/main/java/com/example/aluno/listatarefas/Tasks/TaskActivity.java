@@ -18,18 +18,10 @@ public class TaskActivity extends AppCompatActivity {
         setContentView(R.layout.activity_task);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(TaskActivity.this,NewTaskActivity.class));
-            }
-        });
     }
 
-    public void newTask() {
-        Intent i = new Intent();
+    public void newTask(View v) {
+        startActivity(new Intent(this,NewTaskActivity.class));
     }
 
 }
