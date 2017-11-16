@@ -1,0 +1,15 @@
+package com.example.hitalo.listadetarefas.activity;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+import com.example.hitalo.listadetarefas.R;
+
+public class StarterActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_starter);
+    }
+}
