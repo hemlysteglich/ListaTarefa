@@ -1,3 +1,13 @@
+<<<<<<< HEAD
 <resources>
     <string name="app_name">Lista de Tarefas</string>
 </resources>
+=======
+<resources>
+    <string name="app_name">Lista de Tarefas</string>
+    <string name="label_name">Nome</string>
+    <string name="label_password">Senha</string>
+    <string name="btn_enter">Entrar</string>
+    <string name="title_activity_category">CategoryActivity</string>
+</resources>
+>>>>>>> a09044aa4882f61687dffed522b151c5442c3da9
